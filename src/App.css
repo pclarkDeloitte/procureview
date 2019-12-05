@@ -1,0 +1,75 @@
+.appBackground {
+    background-color:rgb(100,100,100);
+    color: rgb(40,40,40);
+    height:100%
+}
+
+.sideBarTile {
+    padding:20
+}
+
+  .sideBarTile:hover {
+    background-color: rgb(80,80,80);
+  }
+
+.sideBarTileActive {
+    background-color: rgb(70,70,70);
+}
+.sideBarTileInactive {
+  background-color: rgb(40,40,40);
+}
+
+.sideBarIcon {
+  font-size: 4vh;
+}
+
+
+
+
+
+.surveyTileActive {
+  background-color: rgb(52, 152, 219);
+  font-size:50;
+  color:white;
+}
+.surveyTileInactive {
+  background-color: rgb(190,190,190);
+}
+  .surveyTileInactive:hover {
+    background-color: rgb(220,220,220);
+  }
+  
+.surveyAnswerTileActive {
+  background-color: rgb(46, 204, 113);
+  color: white;
+}
+.surveyAnswerTileInactive {
+  background-color: white;
+  color: rgb(40,40,40);
+}
+.surveyAnswerTileInactiveFalse {
+  background-color: rgb(200,200,200);
+  color: rgb(40,40,40);
+}
+
+
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.verticalCenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
